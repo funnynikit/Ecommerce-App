@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_catgry"
+            android:icon="@drawable/cat"
+            android:title="Category" />
+
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_receipt"
+            android:title="Electronics" />
+        <item
+            android:id="@+id/nav_wishlist"
+            android:icon="@drawable/ic_wish"
+            android:title="New Arrivals" />
+
+        <item
+            android:id="@+id/nav_notifi"
+            android:icon="@drawable/ic_notifi"
+            android:title="Notification" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_user"
+            android:title="My Profile" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help &amp; Support" />
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_rate"
+            android:title="Rate this App" />
+
+        <item
+            android:id="@+id/nav_sell"
+            android:icon="@drawable/logocarrt"
+            android:title="Sale On Gooni" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_mail"
+            android:title="Contact Us" />
+    </group>
+
+</menu>

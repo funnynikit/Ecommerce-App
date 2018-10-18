@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/otp_et"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Enter OTP "
+            android:textSize="12sp"
+            android:textColor="@color/colorBlack"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/verify_otp_btn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="12sp"
+            android:background="@drawable/ic_btn_bg"
+            android:textColor="@color/colorWhite"
+            android:text="Verify" />
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    tools:context=".buyerlogin.BuyLoginActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="@drawable/pink_bl"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/ic_mail"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"/>
+
+                <EditText
+                    android:id="@+id/buy_login_email_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email Id / Mobile Number*"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorBlack"
+                    android:inputType="textEmailAddress"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:background="@null"/>
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="@drawable/pink_bl"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/ic_pass"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"/>
+
+                <EditText
+                    android:id="@+id/buy_login_password_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password*"
+                    android:textSize="13dp"
+                    android:textColor="@color/colorBlack"
+                    android:inputType="textPassword"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:background="@null"/>
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/btn_buy_login"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ic_btn_bg"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Login"
+                android:textSize="15sp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forget Password?"
+                android:id="@+id/txt_forget_buy_pass"
+                android:textSize="13dp"
+                android:gravity="end"
+                android:layout_marginRight="40dp"/>
+
+                 </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dont Have an Account? "
+                android:textSize="13dp" />
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Signup"
+                android:id="@+id/txt_buy_signup"
+                android:textSize="17dp"
+                android:textColor="@color/colorPrimary"/>
+
+            </LinearLayout>
+
+</LinearLayout>

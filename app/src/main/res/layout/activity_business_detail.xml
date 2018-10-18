@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.winklix.indu.gooni.seller_login.BusinessDetailActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="@drawable/pink_bl"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_office"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/busisnes_name_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company Name*"
+                android:textSize="13dp"
+                android:textColor="@color/colorBlack"
+                android:inputType="textPersonName"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@null"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="@drawable/pink_bl"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_pan"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/busisnes_panno_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="PAN No.*"
+                android:textSize="13dp"
+                android:textColor="@color/colorBlack"
+                android:inputType="textPersonName"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@null"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="@drawable/pink_bl"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_gst"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/busisnes_gstno_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="GST No.*"
+                android:textSize="13dp"
+                android:textColor="@color/colorBlack"
+                android:inputType="textPersonName"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@null"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="@drawable/pink_bl"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_busi"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/busisnes_tanno_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="TAN No.*"
+                android:textSize="13dp"
+                android:textColor="@color/colorBlack"
+                android:inputType="textPersonName"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@null"/>
+        </LinearLayout>
+
+
+
+
+        <Button
+            android:id="@+id/btn_seller_busines_reg"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_btn_bg"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>

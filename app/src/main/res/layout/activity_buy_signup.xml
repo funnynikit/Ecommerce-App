@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.winklix.indu.gooni.buyerlogin.BuySignupActivity">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="130dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/pink_bl"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_name"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/buy_fname_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:textSize="13dp"
+            android:textColor="@color/colorBlack"
+            android:inputType="textEmailAddress"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@null"/>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@drawable/pink_bl"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_name"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/buy_lname_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:textSize="13dp"
+                android:textColor="@color/colorBlack"
+                android:inputType="textEmailAddress"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:background="@null"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/pink_bl"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_mob"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/buy_phone_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile No."
+            android:textSize="13dp"
+            android:textColor="@color/colorBlack"
+            android:inputType="phone"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@null"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/pink_bl"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_mail"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/buy_email_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email*"
+            android:textSize="13dp"
+            android:textColor="@color/colorBlack"
+            android:inputType="textEmailAddress"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@null"/>
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/pink_bl"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_pass"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/buy_password_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="13dp"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPassword"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@null"/>
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/pink_bl"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_addres"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/buy_state_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="State"
+            android:textSize="13dp"
+            android:textColor="@color/colorBlack"
+            android:inputType="text"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@null"/>
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/pink_bl"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_addres"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/buy_city_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:textSize="13dp"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPersonName"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@null"/>
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/pink_bl"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_addres"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/buy_address_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:textSize="13dp"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPostalAddress"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@null"/>
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/pink_bl"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_pin"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/buy_pincode_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PinCode"
+            android:textSize="13dp"
+            android:textColor="@color/colorBlack"
+            android:inputType="text"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@null"/>
+    </LinearLayout>
+        <Button
+            android:id="@+id/btn_buy_register"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_btn_bg"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Create Your Gooni Account"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Register ? "
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Login"
+            android:id="@+id/txt_buy_signup"
+            android:textSize="17dp"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
+

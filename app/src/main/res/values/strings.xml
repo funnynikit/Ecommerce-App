@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Gooni</string>
+    <string name="Seller">For Seller</string>
+    <string name="terms">*If registering on behalf of a Business,Enter business name.</string>
+    <string name="verify">Your Account is Unverified.</string>
+    <string name="forgetPass">Enter Your Account Email to receive to a link allowing to a reset your Password</string>
+    <string name="congo">YOUR ACCOUNT HAS BEEN SUCCESSFULLY CREATED.</string>
+    <string name="L1">Your Mobile No. is</string>
+    <string name="L2">9876543210</string>
+    <string name="L3">Please fill your OTP below!!</string>
+    <string name="title_activity_buyer_dash_board">BuyerDashBoardActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="name"><b>Product Name</b></string>
+
+    <string name="wishlist"><u>Add to Wishlist</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_data_available">No notification yet</string>
+    <string name="saveyour_profile_activity">Save your delivery locations to place your orders faster!</string>
+    <string name="title_activity_home_desh_board">HomeDeshBoard</string>
+
+</resources>
